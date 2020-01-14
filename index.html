@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Active Matter Group</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="font-awesome.min.css">
+<style>
+body {
+margin: 0;
+padding:0;
+height:110%;
+}
+p1 {
+  margin-left: 10px;
+  text-align:right;
+}
+.video2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container2 {
+   position: relative;
+    width: 100%;
+    height: 630px;
+}
+.footer {
+  height: auto;
+  background-color: black;
+}
+.header {
+  background-color: #f1f1f1;
+  margin-top: 2%;
+  padding: 20px;
+  text-align: center;
+}
+.header img {
+  float: right;
+  width: 90px;
+  height: 90px;
+  background: #555;
+  border-radius: 0px;
+}
+.mySlides {display: none}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+* {box-sizing:border-box}
+.slideshow-container {
+  max-width: 100vw;
+  max-height: 80vw;
+  position: relative;
+  margin: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.text2 {
+  background-color: white;
+  max-width: 50%;
+}
+.text1 {
+  max-width: 90%;
+  margin-left: 7%;
+  text-align: justify;
+}
+.container {
+   position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.abstract {
+    position: absolute;
+    text-align: justify;
+    top: 25px;
+    left: 6%;
+    width: 42%;
+    height: 100%;
+}
+.abstract2 {
+    position: absolute;
+    text-align: justify;
+    top: 25px;
+    left: 56%;
+    width: 42%;
+    height: 200vh;
+}
+.video {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+.video3 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width:100%;
+}
+.flex-container {
+  display: fixed;
+  flex-direction: column;
+overflow:hidden;
+width: 100%;
+height: 35vw;
+
+}
+
+</style>
+
+
+<body>
+
+  <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="publication.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PUBLICATIONS</a>
+    <a href="members.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MEMBERS</a>
+    <a href="lecture.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LECTURES & TALKS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="canvas.html" class="w3-bar-item w3-button">Canvas</a>
+        <a href="discussion.html" class="w3-bar-item w3-button">Discussion</a>
+        <a href="social.html" class="w3-bar-item w3-button">Social Media</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="header">
+  <img src="iiserlogo_400x400.jpg" alt="logo" />
+  <h1>Soft condensed matter group</h1>
+</div>
+
+<div class="flex-container">
+  <iframe src="https://tolovegrover.github.io/scmp/slideshow" class="video2">
+  </iframe>
+  <br  />
+  </div>
+
+<div class="container">
+      <div class="abstract2">
+    <iframe src="https://tolovegrover.github.io/scmp/newspaper.html" class="video3" >
+    </iframe>
+  </div>
+  <div class="abstract">
+    <p><e>The aim</e> of our group is to understand the physical properties of biological and soft condensed matter systems that are driven out of equilibrium. We use both analytical approaches (Equilibrium and Non-equilibrium Statistical Mechanics, Hydrodynamics) and computational methods (Molecular Dynamics, Brownian Dynamics, Monte Carlo) to investigate the dynamics of systems ranging from the cell membrane and the cell cytoskeleton to polymers and colloids in confinement.
+    </p>
+    <p>
+    The cell is an active dynamical medium, constantly generating and dissipating energy to sustain the various life processes. It is subject to active stresses arising from a meshwork of filaments (cell cytoskeleton), which is driven out of equilibrium. We use an active hydrodynamics approach for the coupled dynamics of these filaments and the motor proteins to determine the organization of molecules on the cell surface. We study the consequences of such organization on signalling platforms and the uptake of material by the cell.
+    </p>
+    <p>
+    In soft condensed matter, our aim is to understand the emergent properties of colloids and polymers in confinement or otherwise, when they are subjected to time dependent external drives.
+    </p>
+    <p>
+    We are also interested in studying transport properties in general. More specifically we have been studying the problem of heat transport using non-equilibrium simulations and direct numerical evaluations of current given in terms of phonon Green's function.
+    </p>
+    </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Active Matter Group</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="font-awesome.min.css">
+<style>
+body {
+margin: 0;
+}
+.layout {
+    height: 800px;
+    background: linear-gradient(to bottom, #185a9d 0%, #43cea2 100%)
+}
+.header {
+  background-color: #f1f1f1;
+  margin-top: 2%;
+  padding: 20px;
+  text-align: center;
+}
+.header img {
+  float: right;
+  width: 90px;
+  height: 90px;
+  background: #555;
+  border-radius: 0px;
+}
+.container {
+   position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.abstract {
+    position: absolute;
+    float: right;
+    top: 200px;
+    left: 66%;
+    width: 25%;
+    height: 100%;
+}
+.video {
+    position: absolute;
+    float: left;
+    top: 200px;
+    left: 33%;
+    width: 25%;
+    height: 100%;
+}
+.new {
+    position: absolute;
+    float: left;
+    top: 800px;
+    left: 33%;
+    width: 25%;
+    height: 100%;
+}
+.video2 {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 66%;
+    width: 25%;
+    height: 100%;
+}
+</style>
+
+<body>
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
+
+
+    <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="publication.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PUBLICATIONS</a>
+      <a href="members.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MEMBERS</a>
+      <a href="lecture.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LECTURES & TALKS</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">MORE</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="canvas.html" class="w3-bar-item w3-button">Canvas</a>
+          <a href="discussion.html" class="w3-bar-item w3-button">Discussion</a>
+        <a href="social.html" class="w3-bar-item w3-button">Social Media</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <img src="iiserlogo_400x400.jpg" alt="logo" />
+    <h1>Soft condensed matter group</h1>
+  </div>
+  <div>
+<a class="twitter-timeline" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/scmpiiserm?ref_src=twsrc%5Etfw">Tweets by scmpiiserm</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fscientistsagainstpseudoscience%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="video"></iframe>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fscmpgroup%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="abstract"></iframe>
+</div>
+
+<div class="new">
+  <script src='https://redditjs.com/subreddit.js' data-subreddit='scmpgroup'  ></script>
+</div>
+
+
+</body>
+</html>
